@@ -5,7 +5,7 @@
 //  Created by 盘国权 on 2019/6/10.
 //  Copyright © 2019 pgq. All rights reserved.
 //
-
+ 
 import Foundation
 
 public enum PQTransitionAnimationType: Equatable {
