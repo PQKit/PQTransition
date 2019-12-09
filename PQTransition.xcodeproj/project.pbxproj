@@ -14,6 +14,14 @@
 		6012364C231F5D580090CC0A /* PQTransition+internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60123648231F5D580090CC0A /* PQTransition+internal.swift */; };
 		6012364D231F5D580090CC0A /* PQTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60123649231F5D580090CC0A /* PQTransition.swift */; };
 		6012364E231F5D580090CC0A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012364A231F5D580090CC0A /* UIView.swift */; };
+		CD4F6B21239DF39100640D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F6B20239DF39100640D7C /* AppDelegate.swift */; };
+		CD4F6B23239DF39100640D7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F6B22239DF39100640D7C /* SceneDelegate.swift */; };
+		CD4F6B25239DF39100640D7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F6B24239DF39100640D7C /* ViewController.swift */; };
+		CD4F6B28239DF39200640D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4F6B26239DF39200640D7C /* Main.storyboard */; };
+		CD4F6B2A239DF39300640D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4F6B29239DF39300640D7C /* Assets.xcassets */; };
+		CD4F6B2D239DF39300640D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4F6B2B239DF39300640D7C /* LaunchScreen.storyboard */; };
+		CD4F6B33239DF59800640D7C /* PQTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6012362D231F5D2A0090CC0A /* PQTransition.framework */; };
+		CD4F6B34239DF59800640D7C /* PQTransition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6012362D231F5D2A0090CC0A /* PQTransition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +32,28 @@
 			remoteGlobalIDString = 6012362C231F5D2A0090CC0A;
 			remoteInfo = PQTransition;
 		};
+		CD4F6B35239DF59800640D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60123624231F5D2A0090CC0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6012362C231F5D2A0090CC0A;
+			remoteInfo = PQTransition;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD4F6B37239DF59800640D7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD4F6B34239DF59800640D7C /* PQTransition.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6012362D231F5D2A0090CC0A /* PQTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PQTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +66,14 @@
 		60123648231F5D580090CC0A /* PQTransition+internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PQTransition+internal.swift"; sourceTree = "<group>"; };
 		60123649231F5D580090CC0A /* PQTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PQTransition.swift; sourceTree = "<group>"; };
 		6012364A231F5D580090CC0A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CD4F6B1E239DF39100640D7C /* PQTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PQTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4F6B20239DF39100640D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD4F6B22239DF39100640D7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD4F6B24239DF39100640D7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4F6B27239DF39200640D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4F6B29239DF39300640D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4F6B2C239DF39300640D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4F6B2E239DF39300640D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +92,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD4F6B1B239DF39100640D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F6B33239DF59800640D7C /* PQTransition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,7 +108,9 @@
 			children = (
 				6012362F231F5D2A0090CC0A /* PQTransition */,
 				6012363A231F5D2A0090CC0A /* PQTransitionTests */,
+				CD4F6B1F239DF39100640D7C /* PQTransitionDemo */,
 				6012362E231F5D2A0090CC0A /* Products */,
+				CD4F6B32239DF59800640D7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +119,7 @@
 			children = (
 				6012362D231F5D2A0090CC0A /* PQTransition.framework */,
 				60123636231F5D2A0090CC0A /* PQTransitionTests.xctest */,
+				CD4F6B1E239DF39100640D7C /* PQTransitionDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +144,27 @@
 				6012363D231F5D2A0090CC0A /* Info.plist */,
 			);
 			path = PQTransitionTests;
+			sourceTree = "<group>";
+		};
+		CD4F6B1F239DF39100640D7C /* PQTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F6B20239DF39100640D7C /* AppDelegate.swift */,
+				CD4F6B22239DF39100640D7C /* SceneDelegate.swift */,
+				CD4F6B24239DF39100640D7C /* ViewController.swift */,
+				CD4F6B26239DF39200640D7C /* Main.storyboard */,
+				CD4F6B29239DF39300640D7C /* Assets.xcassets */,
+				CD4F6B2B239DF39300640D7C /* LaunchScreen.storyboard */,
+				CD4F6B2E239DF39300640D7C /* Info.plist */,
+			);
+			path = PQTransitionDemo;
+			sourceTree = "<group>";
+		};
+		CD4F6B32239DF59800640D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,13 +217,32 @@
 			productReference = 60123636231F5D2A0090CC0A /* PQTransitionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CD4F6B1D239DF39100640D7C /* PQTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4F6B31239DF39300640D7C /* Build configuration list for PBXNativeTarget "PQTransitionDemo" */;
+			buildPhases = (
+				CD4F6B1A239DF39100640D7C /* Sources */,
+				CD4F6B1B239DF39100640D7C /* Frameworks */,
+				CD4F6B1C239DF39100640D7C /* Resources */,
+				CD4F6B37239DF59800640D7C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4F6B36239DF59800640D7C /* PBXTargetDependency */,
+			);
+			name = PQTransitionDemo;
+			productName = PQTransitionDemo;
+			productReference = CD4F6B1E239DF39100640D7C /* PQTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		60123624231F5D2A0090CC0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = pgq;
 				TargetAttributes = {
@@ -164,6 +252,9 @@
 					60123635231F5D2A0090CC0A = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					CD4F6B1D239DF39100640D7C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 60123627231F5D2A0090CC0A /* Build configuration list for PBXProject "PQTransition" */;
@@ -172,6 +263,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 60123623231F5D2A0090CC0A;
 			productRefGroup = 6012362E231F5D2A0090CC0A /* Products */;
@@ -180,6 +272,7 @@
 			targets = (
 				6012362C231F5D2A0090CC0A /* PQTransition */,
 				60123635231F5D2A0090CC0A /* PQTransitionTests */,
+				CD4F6B1D239DF39100640D7C /* PQTransitionDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +289,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F6B1C239DF39100640D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F6B2D239DF39300640D7C /* LaunchScreen.storyboard in Resources */,
+				CD4F6B2A239DF39300640D7C /* Assets.xcassets in Resources */,
+				CD4F6B28239DF39200640D7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +324,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD4F6B1A239DF39100640D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F6B25239DF39100640D7C /* ViewController.swift in Sources */,
+				CD4F6B21239DF39100640D7C /* AppDelegate.swift in Sources */,
+				CD4F6B23239DF39100640D7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -229,7 +342,31 @@
 			target = 6012362C231F5D2A0090CC0A /* PQTransition */;
 			targetProxy = 60123638231F5D2A0090CC0A /* PBXContainerItemProxy */;
 		};
+		CD4F6B36239DF59800640D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6012362C231F5D2A0090CC0A /* PQTransition */;
+			targetProxy = CD4F6B35239DF59800640D7C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4F6B26239DF39200640D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4F6B27239DF39200640D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4F6B2B239DF39300640D7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4F6B2C239DF39300640D7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6012363F231F5D2A0090CC0A /* Debug */ = {
@@ -444,6 +581,44 @@
 			};
 			name = Release;
 		};
+		CD4F6B2F239DF39300640D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ5TGFY9AN;
+				INFOPLIST_FILE = PQTransitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pq.PQTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4F6B30239DF39300640D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ5TGFY9AN;
+				INFOPLIST_FILE = PQTransitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pq.PQTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -470,6 +645,15 @@
 			buildConfigurations = (
 				60123645231F5D2A0090CC0A /* Debug */,
 				60123646231F5D2A0090CC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4F6B31239DF39300640D7C /* Build configuration list for PBXNativeTarget "PQTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4F6B2F239DF39300640D7C /* Debug */,
+				CD4F6B30239DF39300640D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
